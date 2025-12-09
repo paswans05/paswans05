@@ -1,0 +1,27 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f3f4f6"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="32" fill="url(#bgGradient)"/>
+  <circle cx="1030" cy="90" r="120" fill="url(#accentGradient)" fill-opacity="0.16"/>
+  <circle cx="1030" cy="90" r="70" stroke="#0ea5e9" stroke-opacity="0.4" stroke-width="2" fill="none"/>
+
+  <g transform="translate(80, 80)">
+    <text x="0" y="0" fill="#0ea5e9" font-size="16" letter-spacing="3" font-family="system-ui">SOFTWARE DEVELOPER · FOUNDER</text>
+    <text x="0" y="52" fill="#0f172a" font-size="40" font-weight="700" font-family="system-ui">Sanjay Paswan</text>
+    <text x="0" y="92" fill="#475569" font-size="18" font-family="system-ui">
+     Founder @ DropDrinx · Creator of Sendbix
+    </text>
+    <text x="0" y="132" fill="#64748b" font-size="15" font-family="system-ui">
+      4+ years · React · Node.js · Next.js · Laravel · Cloud · AI · DevTools
+    </text>
+  </g>
+</svg>
