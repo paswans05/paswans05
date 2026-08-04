@@ -28,9 +28,57 @@ const dmMono = DM_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sanjay Paswan | Software Developer",
+  title: "Sanjay Paswan | Frontend Engineer | React & Next.js Developer",
   description:
-    "Welcome to my portfolio! I'm Sanjay Paswan, a passionate software developer with extensive experience in creating dynamic and efficient solutions. Specializing in full-stack development, I focus on building robust applications, from innovative front-end interfaces to reliable back-end systems",
+    "Frontend Engineer with 4+ years of experience building modern web applications, SaaS platforms, mobile apps, and AI-powered products using React, Next.js, Flutter, Laravel, and TypeScript.",
+  keywords: [
+    "Sanjay Paswan",
+    "Frontend Engineer",
+    "React Developer",
+    "Next.js Developer",
+    "TypeScript",
+    "Flutter",
+    "Laravel",
+    "SaaS Development",
+    "Product Builder",
+  ],
+  openGraph: {
+    title: "Sanjay Paswan | Frontend Engineer | React & Next.js Developer",
+    description:
+      "Frontend Engineer with 4+ years of experience building modern web applications, SaaS platforms, mobile apps, and AI-powered products using React, Next.js, Flutter, Laravel, and TypeScript.",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sanjay Paswan | Frontend Engineer | React & Next.js Developer",
+    description:
+      "Frontend Engineer with 4+ years of experience building modern web applications, SaaS platforms, mobile apps, and AI-powered products using React, Next.js, Flutter, Laravel, and TypeScript.",
+  },
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Sanjay Paswan",
+  jobTitle: "Frontend Engineer",
+  description:
+    "Frontend Engineer with 4+ years of experience building scalable web applications, SaaS platforms, mobile apps, and startup products.",
+  email: "mailto:paswans05@gmail.com",
+  sameAs: [
+    "https://github.com/paswans05",
+    "https://www.linkedin.com/in/unofficialsanju",
+  ],
+  knowsAbout: [
+    "React.js",
+    "Next.js",
+    "TypeScript",
+    "Flutter",
+    "Laravel",
+    "Node.js",
+    "REST APIs",
+    "Product Development",
+  ],
 };
 
 export default function RootLayout({
@@ -43,6 +91,10 @@ export default function RootLayout({
       <body
         className={`${urbanist.variable} ${playfair_display.variable} ${dmMono.variable}`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
         {children}
       </body>
     </html>

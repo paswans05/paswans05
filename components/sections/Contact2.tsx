@@ -44,18 +44,6 @@ export default function Contact2() {
 							<div className="d-flex align-items-center mb-3 position-relative d-inline-flex">
 								<div className="d-inline-block">
 									<div className="icon-flip flex-nowrap icon-shape icon-xxl border border-1 rounded-3 bg-3">
-										<i className="ri-phone-fill text-primary-2 fs-26" />
-									</div>
-								</div>
-								<div className="ps-3 h-100">
-									<span className="text-400 fs-6">Phone Number</span>
-									<h6 className="mb-0">+91-798-269-1218</h6>
-								</div>
-								<a href="tel:+91-798-269-1218" className="position-absolute top-0 start-0 w-100 h-100" />
-							</div>
-							<div className="d-flex align-items-center mb-3 position-relative d-inline-flex">
-								<div className="d-inline-block">
-									<div className="icon-flip flex-nowrap icon-shape icon-xxl border border-1 rounded-3 bg-3">
 										<i className="ri-mail-fill text-primary-2 fs-26" />
 									</div>
 								</div>
@@ -68,26 +56,42 @@ export default function Contact2() {
 							<div className="d-flex align-items-center mb-3 position-relative d-inline-flex">
 								<div className="d-inline-block">
 									<div className="icon-flip flex-nowrap icon-shape icon-xxl border border-1 rounded-3 bg-3">
-										<i className="ri-skype-fill text-primary-2 fs-26" />
+										<i className="ri-github-fill text-primary-2 fs-26" />
 									</div>
 								</div>
 								<div className="ps-3 h-100">
-									<span className="text-400 fs-6">Skype</span>
-									<h6 className="mb-0">Unofficialsanju</h6>
+									<span className="text-400 fs-6">GitHub</span>
+									<h6 className="mb-0">github.com/paswans05</h6>
 								</div>
-								<a href="skype:SKYPENAME?add" className="position-absolute top-0 start-0 w-100 h-100" />
+								<a href="https://github.com/paswans05" className="position-absolute top-0 start-0 w-100 h-100" target="_blank" />
 							</div>
 							<div className="d-flex align-items-center mb-3 position-relative d-inline-flex">
 								<div className="d-inline-block">
 									<div className="icon-flip flex-nowrap icon-shape icon-xxl border border-1 rounded-3 bg-3">
-										<i className="ri-map-2-fill text-primary-2 fs-26" />
+										<i className="ri-linkedin-fill text-primary-2 fs-26" />
 									</div>
 								</div>
 								<div className="ps-3 h-100">
-									<span className="text-400 fs-6">Address</span>
-									<h6 className="mb-0">Meethapur, Badarpur, New Delhi-110044</h6>
+									<span className="text-400 fs-6">LinkedIn</span>
+									<h6 className="mb-0">linkedin.com/in/unofficialsanju</h6>
 								</div>
-								<a href="https://maps.google.com/maps?q=Badarpur,New+Delhi" className="position-absolute top-0 start-0 w-100 h-100" />
+								<a href="https://www.linkedin.com/in/unofficialsanju" className="position-absolute top-0 start-0 w-100 h-100" target="_blank" />
+							</div>
+							<div className="d-flex align-items-center mb-3 position-relative d-inline-flex">
+								<div className="d-inline-block">
+									<div className="icon-flip flex-nowrap icon-shape icon-xxl border border-1 rounded-3 bg-3">
+										<i className="ri-file-download-fill text-primary-2 fs-26" />
+									</div>
+								</div>
+								<div className="ps-3 h-100">
+									<span className="text-400 fs-6">Resume</span>
+									<h6 className="mb-0">Download Resume</h6>
+								</div>
+								<a href="/assets/resume.pdf" className="position-absolute top-0 start-0 w-100 h-100" target="_blank" />
+							</div>
+							<div className="border border-1 rounded-3 bg-3 p-3 mt-2">
+								<span className="text-400 fs-6 d-block">Availability</span>
+								<h6 className="mb-0">Available for freelance and full-time opportunities</h6>
 							</div>
 						</div>
 					</div>

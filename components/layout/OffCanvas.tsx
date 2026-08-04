@@ -13,22 +13,22 @@ export default function OffCanvas({ isOffCanvas, handleOffCanvas }: any) {
 					</div>
 					<div className="offCanvas__side-info mb-30">
 						<div className="contact-list mb-30">
-							<p className="fs-6 fw-medium text-200 mb-5">I'm always excited to take on new projects and collaborate with innovative minds.</p>
-							<div className="mb-3">
-								<span className="text-400 fs-5">Phone Number</span>
-								<p className="mb-0">+91-798-269-1218</p>
-							</div>
+							<p className="fs-6 fw-medium text-200 mb-5">Available for freelance and full-time opportunities.</p>
 							<div className="mb-3">
 								<span className="text-400 fs-5">Email</span>
 								<p className="mb-0">paswans05@gmail.com</p>
 							</div>
 							<div className="mb-3">
-								<span className="text-400 fs-5">Skype</span>
-								<p className="mb-0">Unofficialsanju</p>
+								<span className="text-400 fs-5">GitHub</span>
+								<p className="mb-0">github.com/paswans05</p>
 							</div>
 							<div className="mb-3">
-								<span className="text-400 fs-5">Address</span>
-								<p className="mb-0">Meethapur, Badarpur, New Delhi-110044</p>
+								<span className="text-400 fs-5">LinkedIn</span>
+								<p className="mb-0">linkedin.com/in/unofficialsanju</p>
+							</div>
+							<div className="mb-3">
+								<span className="text-400 fs-5">Resume</span>
+								<p className="mb-0">/assets/resume.pdf</p>
 							</div>
 						</div>
 						<div className="contact-list">

@@ -30,8 +30,9 @@ export default function Home2() {
 											</div>
 											&lt;/span&gt;
 										</div>
-										<h1 className="fs-50 my-3"><span className="text-linear-4">{'{'}Full Stack{'}'}</span>Web &amp; App developer<span className="flicker">_</span></h1>
-										<p className="mb-6 text-secondary-2">&lt;p&gt;<span className="text-dark">Dynamic Web Software Developer with five years of experience, specializing in the development and optimization of enterprise-grade applications. Proficient in both front-end and back-end technologies, leveraging modern frameworks, and robust database systems. Consistently recognized for delivering scalable solutions that significantly enhance application performance and user experience. Career ambitions include further advancing technical skills, while contributing to innovative projects within a collaborative team environment.</span>&lt;/p&gt;</p>
+										<h1 className="fs-50 my-3">Frontend Engineer | React &amp; Next.js Developer | Product Builder<span className="flicker">_</span></h1>
+										<p className="mb-3 text-secondary-2">&lt;p&gt;<span className="text-dark">Frontend Engineer with 4+ years of experience building scalable web applications, SaaS platforms, mobile apps, and startup products. Passionate about React, Next.js, TypeScript, Flutter, Laravel, and creating products that solve real-world problems.</span>&lt;/p&gt;</p>
+										<p className="mb-6 text-secondary-2">&lt;about&gt;<span className="text-dark">I&apos;m a Frontend Engineer with over 4 years of experience building modern web applications, SaaS products, and mobile solutions. I specialize in React, Next.js, TypeScript, Laravel, Flutter, and creating user-focused digital experiences. I enjoy transforming ideas into scalable, production-ready applications.</span>&lt;/about&gt;</p>
 										<div className="row">
 											<div className="col-7">
 												{/* Carausel Scroll */}
@@ -69,10 +70,20 @@ export default function Home2() {
 												<span className="fs-6 text-300 mb-2">...and more</span>
 											</div>
 										</div>
-										<Link href="assets/resume.pdf" className="btn me-2 text-300 ps-0 mt-4" target="_blank">
-											<i className="ri-download-line text-primary-2" />
-											[ Download my CV ]
-										</Link>
+										<div className="d-flex flex-wrap gap-3 mt-4">
+											<Link href="/#projects" className="btn btn-primary-2 rounded-2">
+												View Projects
+												<i className="ri-arrow-right-up-line" />
+											</Link>
+											<Link href="/assets/resume.pdf" className="btn text-300 border border-1 rounded-2" target="_blank">
+												<i className="ri-download-line text-primary-2" />
+												Download Resume
+											</Link>
+											<Link href="/#contact" className="btn btn-outline-secondary rounded-2">
+												Contact Me
+												<i className="ri-arrow-right-up-line" />
+											</Link>
+										</div>
 									</div>
 								</div>
 							</div>
