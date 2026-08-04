@@ -1,13 +1,14 @@
 
 import Link from 'next/link'
 import Marquee from 'react-fast-marquee'
+import ThreeHeroBackground from '@/components/elements/ThreeHeroBackground'
 
 export default function Home2() {
 	return (
 		<>
 
 			<section id="about" className="section-hero-2 position-relative pt-130 pb-3">
-				<div className="container hero-2">
+				<div className="container hero-2 position-relative z-3">
 					<div className="border border-1 rounded-3">
 						<div className="box-linear-animation position-relative z-1">
 							<div className="row align-items-end py-60">
@@ -94,6 +95,7 @@ export default function Home2() {
 					<img className="bg-w" src="assets/imgs/home-page-2/hero-1/bg.png" alt="zelio" />
 					<img className="bg-d" src="assets/imgs/home-page-2/hero-1/bg-dark.png" alt="zelio" />
 				</div>
+				<ThreeHeroBackground />
 			</section>
 
 		</>
